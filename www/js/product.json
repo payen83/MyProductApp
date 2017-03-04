@@ -1,0 +1,12 @@
+[
+
+{"id": 1, "name": "Adidas Shoes", "description": "Cool sport shoes", 
+"price": "20.00", "imageURL": "img/shoes.jpg"},
+
+{"id": 2, "name": "Nike T-Shirt", "description": "Easy iron and size XL", 
+"price": "10.00", "imageURL": "img/tshirt.jpg"},
+
+{"id": 3, "name": "Puma Cap", "description": "Comfortable and trendy", 
+"price": "49.00", "imageURL": "img/cap.jpg"}
+
+]

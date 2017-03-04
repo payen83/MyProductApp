@@ -1,0 +1,17 @@
+<ion-view title="Details" id="page3">
+  <ion-content padding="true" class="has-header">
+    <div class="list card" id="details-card21">
+      <ion-item id="details-list-item4">{{item.name}}</ion-item>
+      <div class=" item item-image">
+        <img src="{{item.imageURL}}" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+      </div>
+      <div class="item item-body" id="details-list-item-container2">
+        <div id="details-markdown2" class="show-list-numbers-and-dots">
+          <p style="margin-top:0px;color:#000000;">{{item.description}}</p>
+        </div>
+      </div>
+      <ion-item class="item-icon-left dark" id="details-list-item5">
+        <i class="icon ion-ios-pricetag"></i>RM {{item.price}}</ion-item>
+    </div>
+  </ion-content>
+</ion-view>

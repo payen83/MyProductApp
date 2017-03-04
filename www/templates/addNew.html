@@ -1,0 +1,29 @@
+<ion-view title="Add New" id="page2">
+  <ion-content padding="true" class="has-header">
+    <form id="addNew-form1" class="list">
+      <label class="item item-input" id="addNew-input1">
+        <span class="input-label">Product Name</span>
+        <input type="text" placeholder="" 
+        ng-model="$parent.item.name">
+
+      </label>
+      <label class="item item-input" id="addNew-input2">
+        <span class="input-label">Price (RM)</span>
+        <input type="text" placeholder="i.e 9.00" 
+        ng-model="$parent.item.price">
+      </label>
+      <label class="item item-input" id="addNew-input3">
+        <span class="input-label">Description</span>
+        <textarea rows="4" ng-model="$parent.item.description"></textarea>
+      </label>
+      <label class="item item-input" id="addNew-input4">
+        <span class="input-label">Image Link</span>
+        <input type="text" placeholder="Insert your image URL" ng-model="$parent.item.imageURL">
+      </label>
+    </form>
+    <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
+      <img src="{{item.imageURL}}" width="100%"/>
+    </div>
+    <button id="addNew-button1" class="button button-balanced  button-block" ng-click="saveProduct()">Add New Product</button>
+  </ion-content>
+</ion-view>
